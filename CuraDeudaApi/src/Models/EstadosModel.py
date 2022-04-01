@@ -7,8 +7,8 @@ db = SQLAlchemy()
 
 class Estados(db.Model):
     id_estado = db.Column(db.Integer,primary_key=True)
-    c_estado = db.Column(db.String(50),unique=True)
-    d_estado = db.Column(db.String(5),unique=False)
+    c_estado = db.Column(db.String(5),unique=True)
+    d_estado = db.Column(db.String(50),unique=False)
 
     def __init__(self,c_estado,d_estado):
         self.c_estado = c_estado
