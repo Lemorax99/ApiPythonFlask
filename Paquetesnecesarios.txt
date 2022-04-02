@@ -3,3 +3,4 @@ pip install flask-sqlalchemy
 pip install marshmallow
 pip install marshmallow-sqlalchemy
 pip install pymysql
+pip install Flask-JWT

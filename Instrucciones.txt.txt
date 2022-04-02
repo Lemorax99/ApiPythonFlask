@@ -1,0 +1,8 @@
+Instrucciones de prueba para el api
+1.- Primero debemos crear la base de datos en mysql junto con las tabas ubicadas en el archivo DB/Query_creacionDB.sql
+2.- despues instalamos las librerias de python mencionadas en el archivo ./Paquetesnecesarios.txt
+3.- Nos dirigimos por consola a la ubicacion del archivo CuraDeudaApi/src y corremos el app con el comando
+	python app.py
+4.- Ahora corremos la peticion del api ubicada en la ruta /SeedScript con peticion GET a la URL del api
+	 con este se llenaran las tablas de las base de datos para poder hacer uso de la demo
+5.- Queda listo para realizar las peticiones alojadas en el archivo app.py
